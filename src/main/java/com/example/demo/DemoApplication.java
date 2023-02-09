@@ -12,7 +12,8 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World!";
+        
+        return "<b>IntelliLearn v1.0 comming soon!</b>";
     }
 
     public static void main(String[] args) {
